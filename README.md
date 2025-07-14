@@ -42,16 +42,9 @@ pip install requests pandas matplotlib seaborn
 🚀 How to Run
 Clone this repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/codewithshami/wheather_dashboard.git
 cd wheather_dashboard
 Run the script:
-
-bash
-Copy
-Edit
 python wheather_dashboard.py
 ⚠️ Ensure internet access if you're fetching from an API. Alternatively
 
