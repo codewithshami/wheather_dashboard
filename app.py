@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Hardcoded API Key
-API_KEY = "e7c9a340ce6dd659f0492bb24386cf30"  # Your API key here
+API_KEY = "xyz"  # Your API key here
 
 # Custom CSS
 st.markdown("""
