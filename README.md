@@ -1,70 +1,60 @@
-🌦 Weather API Visualization
-This project fetches weather data from a public API or CSV file and visualizes it using Python libraries such as matplotlib and seaborn. It showcases data analysis and visualization techniques for exploring temperature trends, humidity levels, and more.
+# 🌦️ Weather API Visualization
 
-📁 Project Structure
-graphql
-Copy
-Edit
+This project uses Python to fetch historical or live weather data via a public API (or CSV file) and visualizes key metrics like temperature, humidity, and wind speed using data visualization libraries such as `matplotlib` and `seaborn`.
+
+---
+
+## 📌 Features
+
+- Fetches weather data using `requests`
+- Parses and cleans data with `pandas`
+- Visualizes trends with `matplotlib` and `seaborn`
+- Works with both live APIs and offline CSV data
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3.x
+- Requests
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+## 📁 Project Structure
+
 weather-visualization/
-├── weather_visualization.py   # Main Python script
-├── weather.csv                # (Optional) Local CSV backup of weather data
-├── README.md                  # Project documentation
-📌 Features
-Fetches weather data using the requests library
+├── weather_visualization.py # Main Python script
+├── weather.csv # (Optional) Sample data if not using live API
+├── README.md # Project documentation
 
-Parses and cleans data with pandas
+---
 
-Visualizes trends with matplotlib and seaborn
+## ⚙️ Installation
 
-Works with both API and local CSV sources
+Install all required dependencies:
 
-📦 Requirements
-Install dependencies using pip:
-
-bash
-Copy
-Edit
+```bash
 pip install requests pandas matplotlib seaborn
+
 🚀 How to Run
-1. Clone the repo
+Clone this repository:
+
 bash
 Copy
 Edit
-git clone https://github.com/your-username/weather-visualization.git
-cd weather-visualization
-2. Run the script
+git clone https://github.com/codewithshami/wheather_dashboard.git
+cd wheather_dashboard
+Run the script:
+
 bash
 Copy
 Edit
-python weather_visualization.py
-Make sure your system has internet access if using the API, or place the CSV file in the same directory for local usage.
+python wheather_dashboard.py
+⚠️ Ensure internet access if you're fetching from an API. Alternatively
 
-📊 Example Visualization
-Temperature over Time
+ 
 
-Humidity Patterns
-
-Wind Speed and Visibility Trends
-
-Example chart:
-
-<!-- Optional: if you upload plots -->
-
-🧠 Tech Stack
-Python
-
-Requests
-
-Pandas
-
-Matplotlib
-
-Seaborn 
-
- Add date-range selection
-
- Export charts as PDF
-
-📬 Contact
-Made with ❤️ by Mohd Shami
 
